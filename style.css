@@ -1,3 +1,34 @@
 body {
-    background: blue;
+    background: lightskyblue;
+  }
+
+  #title {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 40px;
+  }
+
+  h1, #intro{
+    text-align: center;
+  }
+
+  .albumname {
+    font-style: italic;
+  }
+
+  #content{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  img.albumcover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .artist {
+    padding-bottom: 25px;
   }
