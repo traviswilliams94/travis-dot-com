@@ -2,7 +2,7 @@ body {
     background: lightskyblue;
   }
 
-  #title {
+  .title {
     margin: 0 auto;
     width: 60%;
     padding-bottom: 40px;
@@ -16,11 +16,13 @@ body {
     font-style: italic;
   }
 
-  #content{
+  .content{
+    width: 60%;
+    margin: 0 auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
   
   img.albumcover {
     display: block;
@@ -31,4 +33,15 @@ body {
 
   .artist {
     padding-bottom: 25px;
+  }
+
+  nav {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 25px;
+  }
+  
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
   }
