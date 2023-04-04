@@ -8,7 +8,12 @@ body {
     padding-bottom: 40px;
   }
 
-  h1, #intro{
+  h1 {
+    font-family: cursive;
+    text-align: center;
+  }
+  
+  #intro{
     text-align: center;
   }
 
@@ -16,9 +21,10 @@ body {
     font-style: italic;
   }
 
-  .content{
+  .content, #upcomingshows {
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 20px ;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -31,17 +37,30 @@ body {
     width: 50%;
   }
 
+  img.myshows {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   .artist {
     padding-bottom: 25px;
   }
 
   nav {
     text-align: center;
-    background-color: whitesmoke;
-    padding-bottom: 25px;
+    background-color: white;
   }
   
   nav a {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+ p.myshows {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+ }
