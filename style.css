@@ -34,8 +34,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
+
+   button.reviews {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+   }
 
   img.myshows {
     margin-left: auto;
